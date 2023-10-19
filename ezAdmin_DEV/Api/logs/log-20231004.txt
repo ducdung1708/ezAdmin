@@ -1,0 +1,23 @@
+2023-10-04 09:09:34.149 +07:00 [FTL] Service terminated unexpectedly
+System.IO.FileNotFoundException: Could not load file or assembly 'ezInvoice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'ezInvoice.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   at ezInvoice.Api.Ioc.IocConfig.Register(IServiceCollection services, IConfiguration configuration)
+   at ezInvoice.Api.Startup.ConfigureServices(IServiceCollection services) in /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/Startup.cs:line 128
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at ezInvoice.Api.Program.Main(String[] args) in /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/Program.cs:line 19
+2023-10-04 11:45:45.193 +07:00 [FTL] Application startup exception
+System.IO.DirectoryNotFoundException: /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/ClientApp/dist/
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/Startup.cs:line 138
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

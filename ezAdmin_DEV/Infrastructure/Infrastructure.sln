@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure.csproj", "{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+		Testing|Any CPU = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Development|Any CPU.Build.0 = Development|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Production|Any CPU.Build.0 = Production|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Testing|Any CPU.ActiveCfg = Testing|Any CPU
+		{CF207CF7-2E21-48DA-9BB8-4A9F6711B1E3}.Testing|Any CPU.Build.0 = Testing|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CFEA6DE-933B-4B38-B6A3-93AD6F6005A2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+2023-09-28 15:19:56.610 +07:00 [WRN] No XML encryptor configured. Key {ab022a07-b9fd-4229-92ce-13ac13ed0a0d} may be persisted to storage in unencrypted form.
+2023-09-28 16:16:45.771 +07:00 [FTL] Application startup exception
+System.IO.DirectoryNotFoundException: /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/ClientApp/dist/
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at ezInvoice.Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/Startup.cs:line 138
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-28 16:18:50.412 +07:00 [FTL] Application startup exception
+System.IO.DirectoryNotFoundException: /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/ClientApp/dist/
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at ezInvoice.Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/Startup.cs:line 138
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-09-28 16:22:41.802 +07:00 [FTL] Application startup exception
+System.IO.DirectoryNotFoundException: /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/ClientApp/dist/
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at ezInvoice.Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Volumes/Ken/ezCloud/Projects/ezInvoice/code/BE/ezInvoice.Api/Startup.cs:line 138
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)

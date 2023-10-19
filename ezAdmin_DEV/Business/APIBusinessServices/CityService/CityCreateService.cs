@@ -1,0 +1,86 @@
+﻿using Business.APIBusinessServices.ThirtyPartyApp;
+using Infrastructure.ConstantsDefine.HardCode;
+using Infrastructure.ConstantsDefine.KeywordTranslate;
+using Models.EntityModels;
+using Models.Models.Request;
+using Models.Models.Response;
+using Models.Models.Result;
+using Repository.Implementation;
+using Repository.Interfaces;
+
+namespace Business.APIBusinessServices.CityService
+{
+	public class CityCreateService : BaseBusinessServices<CityCreateRequest, CityCreateResponse>
+    {
+        private readonly ICityRepository _cityRepository;
+        //private readonly ICountryRepository _countryRepository;
+        private City? newCity;
+        private Guid newSiteID = Guid.NewGuid();
+
+
+        public CityCreateService(
+            ICityRepository cityRepository,
+            SlackSendMessageServices slackSendMessageServices,
+            IHttpContextAccessor httpContextAccessor,
+            string successMessageDefault = ""            
+        ) : base(slackSendMessageServices, httpContextAccessor, successMessageDefault)
+        {
+            _cityRepository = cityRepository;
+            //_countryRepository = countryRepository;
+        }
+
+        public override void P1GenerateObjects()
+        {
+            newCity = new City
+            {
+                Id = newSiteID,
+                Name = _dataRequest.Name,
+                Code = _dataRequest.Code,
+                AirportCode = _dataRequest.AirportCode,
+                PhoneCode = _dataRequest.PhoneCode,
+                ExtraCode = _dataRequest.ExtraCode,
+                PostalCode = _dataRequest.PostalCode,
+                Latitude = _dataRequest.Latitude,
+                Longtitude = _dataRequest.Longtitude,
+                SortIndex = _dataRequest.SortIndex,
+                Active = _dataRequest.Active,
+                CreatedDate = _dataRequest.CreatedDate,
+                CreatedBy = _dataRequest.CreatedBy,
+                UpdatedDate = _dataRequest.UpdatedDate,
+                UpdatedBy = _dataRequest.UpdatedBy,
+                CountryId = _dataRequest.CountryId
+            };
+        }
+
+        public override void P2PostValidation()
+        {
+            //if (_dataRequest.CountryCode == null)
+            //{
+            //    throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
+            //}
+            
+            //Country? country = _countryRepository.GetBy(s => s.Code == newCity.CountryCode).FirstOrDefault();
+            //if (country == null)
+            //{
+            //    throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
+            //}
+
+        }
+
+        public override void P3AccessDatabase()
+        {
+
+            _cityRepository.Add(newCity);
+            _cityRepository.Save();
+        }
+
+        public override void P4GenerateResponseData()
+        {
+            _dataResponse = new CityCreateResponse
+            {
+                Id = newSiteID
+            };
+        }
+    }
+}
+

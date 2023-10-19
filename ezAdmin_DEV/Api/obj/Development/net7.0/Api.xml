@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Controllers.AU00_Account.AccountController">
+            <summary>
+            "AU00"
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.AU00_Account.AccountController.#ctor(Business.APIBusinessServices.AccountServices.AccountAuthorizedServices,Business.APIBusinessServices.Account.AccountSignOutServices,Business.APIBusinessServices.Account.UserSiteInfoGetSessionServices)">
+            <summary>
+            
+            </summary>
+            <param name="authorizedAccountServices"></param>
+            <param name="AccountSignOutServices"></param>
+            <param name="SiteSwitchServices"></param>
+            <param name="UserSiteInfoGetSessionServices"></param>
+        </member>
+        <member name="M:Api.Controllers.AU00_Account.AccountController.ezIDAuthorized(Models.Models.Request.AccountVerifyRequest)">
+            <summary>
+            Xác thực User login ezID
+            </summary>
+            <param name="accountRequestModels"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.AU00_Account.AccountController.Signout">
+            <summary>
+            Đăng xuất
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.AU00_Account.AccountController.GetSessionUserSiteInfo">
+            <summary>
+            Lấy thông tin Session User đang truy cập
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Api.Controllers.CF00_Configs.AccountConfigController">
+            <summary>
+            "CF01"
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.GetBySite(System.Nullable{System.Guid})">
+            <summary>
+            Danh sách tài khoản theo Site
+            </summary>
+            <param name="siteId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.InviteAccount(Models.Models.Request.AccountInviteRequest)">
+            <summary>
+            Mời tài khoản tham gia vào Site
+            </summary>
+            <param name="accountInviteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.ChangeGroupUserRole(Models.Models.Request.AccountChangeRoleGroupRequest)">
+            <summary>
+            Chuyển nhóm Quyền
+            </summary>
+            <param name="accountChangeRoleGroupRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.UpdateStatusAccount(Models.Models.Request.AccountUpdateStatusRequest)">
+            <summary>
+            Cập nhật trạng thái tài khoản
+            </summary>
+            <param name="AccountUpdateStatusServices"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.DeleteAccount(Models.Models.Request.AccountDeleteRequest)">
+            <summary>
+            Xóa tài khoản
+            </summary>
+            <param name="accountDeleteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.AccountConfigController.UpdateAccount(Models.Models.Request.AccountUpdateRequest)">
+            <summary>
+            Cập nhật tài khoản
+            </summary>
+            <param name="accountUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Api.Controllers.CF00_Configs.RolesConfigController">
+            <summary>
+            "CF02"
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.RolesConfigController.#ctor(Business.APIBusinessServices.Menu.RoleGetServices,Business.APIBusinessServices.Role.RoleUpdateServices)">
+            <summary>
+            
+            </summary>
+            <param name="getMenuServices"></param>
+            <param name="RoleUpdateServices"></param>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.RolesConfigController.GetBySite(System.Nullable{System.Guid})">
+            <summary>
+            Lấy Danh Sách Role theo Nhóm người dùng
+            </summary>
+            <param name="groupUserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CF00_Configs.RolesConfigController.UpdateGroupUserRole(Models.Models.Request.GroupUserRoleUpdateRequest)">
+            <summary>
+            Cập nhật danh sach role của nhóm người dùng
+            </summary>
+            <param name="groupUserRoleUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CI00_Cities.CityController.GetList(Models.Models.Request.CityGetListRequest)">
+            <summary>
+            Get list of cities based on a filter request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CI00_Cities.CityController.GetDetail(System.Nullable{System.Guid})">
+            <summary>
+            Get a detail info of a city based on an id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CI00_Cities.CityController.CreateCity(Models.Models.Request.CityCreateRequest)">
+            <summary>
+            Create a new city with a detail info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CI00_Cities.CityController.UpdateCity(Models.Models.Request.CityUpdateRequest)">
+            <summary>
+            Update a new city with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CP00_Company.CompanyController.GetList(Models.Models.Request.CompanyGetListRequest)">
+            <summary>
+            Get list of companies based on a filter request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CP00_Company.CompanyController.GetDetail(System.Nullable{System.Guid})">
+            <summary>
+            Get a detail info of a company based on an id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CP00_Company.CompanyController.CreateCompany(Models.Models.Request.CompanyCreateRequest)">
+            <summary>
+            Create a new company with a detail info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CP00_Company.CompanyController.UpdateCompany(Models.Models.Request.CompanyUpdateRequest)">
+            <summary>
+            Update a new company with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CP00_Company.CompanyController.DeleteCompany(System.Nullable{System.Guid})">
+            <summary>
+            Update a new company with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CT00_Country.CountryController.GetList(Models.Models.Request.CountryGetListRequest)">
+            <summary>
+            Get list of companies based on a filter request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CT00_Country.CountryController.GetDetail(System.Int32)">
+            <summary>
+            Get a detail info of a country based on an id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CT00_Country.CountryController.CreateCountry(Models.Models.Request.CountryCreateRequest)">
+            <summary>
+            Create a new country with a detail info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CT00_Country.CountryController.UpdateCountry(Models.Models.Request.CountryUpdateRequest)">
+            <summary>
+            Update a new country with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.CT00_Country.CountryController.DeleteCountry(System.Int32)">
+            <summary>
+            Update a new country with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.DT00_District.DistrictController.GetList(Models.Models.Request.DistrictGetListRequest)">
+            <summary>
+            Get list of district based on a filter request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.DT00_District.DistrictController.GetDetail(System.Nullable{System.Guid})">
+            <summary>
+            Get a detail info of a district based on an id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.DT00_District.DistrictController.CreateDistrict(Models.Models.Request.DistrictCreateRequest)">
+            <summary>
+            Create a new district with a detail info
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Api.Controllers.DT00_District.DistrictController.UpdateDistrict(Models.Models.Request.DistrictUpdateRequest)">
+            <summary>
+            Update a new district with a detail info and id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Api.Controllers.OpenApiController">
+            <summary>
+            "OPEN_API"
+            </summary>
+        </member>
+        <member name="T:Api.Controllers.RS00_Resources.AppResourceController">
+            <summary>
+            "RS00"
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.RS00_Resources.AppResourceController.GetAppResource">
+            <summary>
+            Danh sách Resource khi login hệ thống
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Api.Controllers.RS00_Resources.LanguageController">
+            <summary>
+            "RS00" Ngôn ngữ dịch cho Client
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.RS00_Resources.LanguageController.GetLanguageByCode(System.String)">
+            <summary>
+            Get language based on language code
+            </summary>
+            <param name="languageCode">Mã ngôn ngữ</param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ezInvoice.Api.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ezInvoice.Api.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

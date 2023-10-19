@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Infrastructure/ezInvoice.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Infrastructure/ezInvoice.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Infrastructure/ezInvoice.Infrastructure.csproj",
+        "projectName": "ezInvoice.Infrastructure",
+        "projectPath": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Infrastructure/ezInvoice.Infrastructure.csproj",
+        "packagesPath": "/Users/trungdt/.nuget/packages/",
+        "outputPath": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungdt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/ezInvoice.Models.csproj": {
+                "projectPath": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/ezInvoice.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.104, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/ezInvoice.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/ezInvoice.Models.csproj",
+        "projectName": "ezInvoice.Models",
+        "projectPath": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/ezInvoice.Models.csproj",
+        "packagesPath": "/Users/trungdt/.nuget/packages/",
+        "outputPath": "/Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/ezInvoice.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trungdt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
