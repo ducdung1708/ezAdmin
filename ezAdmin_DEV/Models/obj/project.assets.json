@@ -2935,11 +2935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+      "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
       "projectName": "Models",
-      "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+      "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
       "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-      "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/obj/",
+      "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"

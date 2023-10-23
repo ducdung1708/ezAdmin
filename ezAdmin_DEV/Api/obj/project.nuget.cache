@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Eia4HH/xQ/0axfqIuwTHV0LalqOht6ASu+pmRhcbzGAQgey7FSSQKxslS09SAASvOjShpbWAHYm3Qu87BqC7IQ==",
+  "dgSpecHash": "hMxrT/GzUP6MgfMnvfYpwKTcQbtm+lKtzLWLkSJihfNJBM+1nOjkmpEeCEFPXj7bSK21gsiv02cq8pVZPJo8Ug==",
   "success": true,
-  "projectFilePath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/Api.csproj",
+  "projectFilePath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/Api.csproj",
   "expectedPackageFiles": [
     "/Users/ducdung1708/.nuget/packages/autofac/7.1.0/autofac.7.1.0.nupkg.sha512",
     "/Users/ducdung1708/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yy0mCHDG2A+FBaEiovbwohvUrWkOjcbdyK2urRNRY0ZWFnHKsX0Mimsx80eR/EG/4BliDrbhUnI6S0/3k99enQ==",
+  "dgSpecHash": "VNG2NspPwW7/yXAG+OuRtdYNbQ184u/AVOtK2G6l8nMkIgMY9McU9F84ZoZ6RmMyuC4P9JKjU2wAEaoCjt1BCA==",
   "success": true,
-  "projectFilePath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj",
+  "projectFilePath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj",
   "expectedPackageFiles": [
     "/Users/ducdung1708/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/ducdung1708/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

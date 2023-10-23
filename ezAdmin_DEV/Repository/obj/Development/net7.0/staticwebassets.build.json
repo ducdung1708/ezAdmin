@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "6QZfduFYwDmw9kF6gFETE4j3ra7S05OegAhZ0i3dYc0=",
+  "Hash": "SNm3UwFKWRDfxl+z7AkUri1WxVkwb0uCP6OmkgLpRqw=",
   "Source": "Repository",
   "BasePath": "_content/Repository",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
       "Version": 2,
       "Source": "Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
       "Version": 2,
       "Source": "Models",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

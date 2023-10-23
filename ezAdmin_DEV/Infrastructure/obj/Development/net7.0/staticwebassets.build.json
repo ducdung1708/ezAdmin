@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "f1ewuyjrhgdyrGHwDUR2HCBoPuPr/Jw+qjnFCNIaGO8=",
+  "Hash": "cP2QyKPuEQPD7144nZ0zYcvxYyNlOWkjuDxLuuaa27M=",
   "Source": "Infrastructure",
   "BasePath": "_content/Infrastructure",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
       "Version": 2,
       "Source": "Models",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

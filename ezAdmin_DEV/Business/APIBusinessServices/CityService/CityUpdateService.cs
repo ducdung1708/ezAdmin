@@ -17,7 +17,7 @@ namespace Business.APIBusinessServices.CityService
         private bool checkCountryUpdate = false;
         private int nr = 0;
 
-        public CityUpdateService (
+        public CityUpdateService(
             ICityRepository cityRepository,
             ICountryRepository countryRepository,
             SlackSendMessageServices slackSendMessageServices,
@@ -94,4 +94,3 @@ namespace Business.APIBusinessServices.CityService
         }
     }
 }
-

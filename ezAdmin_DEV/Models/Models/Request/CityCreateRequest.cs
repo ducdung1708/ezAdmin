@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Models.Models.Request
 {
-	public class CityCreateRequest
-	{
+    public class CityCreateRequest
+    {
         public Guid Id { get; set; }
 
         [Required]
@@ -28,7 +28,7 @@ namespace Models.Models.Request
         public Guid? CreatedBy { get; set; }
         public DateTime? UpdatedDate { get; set; }
         public Guid? UpdatedBy { get; set; }
-
+        [Required]
         public int? CountryId { get; set; }
     }
 }

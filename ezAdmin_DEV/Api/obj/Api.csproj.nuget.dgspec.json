@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/Api.csproj": {}
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/Api.csproj": {}
   },
   "projects": {
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/Api.csproj": {
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/Api.csproj",
+        "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/Api.csproj",
         "projectName": "Api",
-        "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/Api.csproj",
+        "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/Api.csproj",
         "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-        "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Api/obj/",
+        "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"
@@ -27,17 +27,17 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj": {
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj",
+        "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj",
         "projectName": "Business",
-        "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj",
+        "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj",
         "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-        "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/obj/",
+        "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"
@@ -139,14 +139,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj"
               }
             }
           }
@@ -183,14 +183,14 @@
         }
       }
     },
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-        "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/obj/",
+        "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"
@@ -206,8 +206,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj"
               }
             }
           }
@@ -258,14 +258,14 @@
         }
       }
     },
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj": {
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+        "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
         "projectName": "Models",
-        "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+        "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
         "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-        "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/obj/",
+        "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"
@@ -341,14 +341,14 @@
         }
       }
     },
-    "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj": {
+    "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj",
+        "projectUniqueName": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj",
+        "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj",
         "packagesPath": "/Users/ducdung1708/.nuget/packages/",
-        "outputPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/obj/",
+        "outputPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ducdung1708/.nuget/NuGet/NuGet.Config"
@@ -364,11 +364,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj"
               },
-              "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj": {
-                "projectPath": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj"
+              "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj": {
+                "projectPath": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj"
               }
             }
           }

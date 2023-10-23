@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "NSp0a/AxD/ngaaAVvrHGQQcgdPY4uUtWyssGSw687KQ=",
+  "Hash": "Iv2iP1pBOSl0RbZN7MMFc9C/kmXaFGEIqLS4e1kKAbU=",
   "Source": "Api",
   "BasePath": "_content/Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Business/Business.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Business/Business.csproj",
       "Version": 2,
       "Source": "Business",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Infrastructure/Infrastructure.csproj",
       "Version": 2,
       "Source": "Infrastructure",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -29,7 +29,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Models/Models.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Models/Models.csproj",
       "Version": 2,
       "Source": "Models",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -40,7 +40,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     },
     {
-      "Identity": "/Users/ducdung1708/Desktop/CongTy/ezAdmin_DEV/Repository/Repository.csproj",
+      "Identity": "/Users/ducdung1708/Desktop/TestGit/ezAdmin/ezAdmin_DEV/Repository/Repository.csproj",
       "Version": 2,
       "Source": "Repository",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

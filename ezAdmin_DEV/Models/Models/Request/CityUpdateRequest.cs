@@ -7,9 +7,6 @@ namespace Models.Models.Request
     {
         [Required]
         public Guid Id { get; set; }
-
-        [Required]
-        [MaxLength(200)]
         public string? Name { get; set; }
         public string? Code { get; set; }
         public string? AirportCode { get; set; }

@@ -13,20 +13,21 @@ namespace Business.APIBusinessServices.CityService
 	public class CityCreateService : BaseBusinessServices<CityCreateRequest, CityCreateResponse>
     {
         private readonly ICityRepository _cityRepository;
-        //private readonly ICountryRepository _countryRepository;
+        private readonly ICountryRepository _countryRepository;
         private City? newCity;
         private Guid newSiteID = Guid.NewGuid();
 
 
         public CityCreateService(
             ICityRepository cityRepository,
+            ICountryRepository countryRepository,
             SlackSendMessageServices slackSendMessageServices,
             IHttpContextAccessor httpContextAccessor,
             string successMessageDefault = ""            
         ) : base(slackSendMessageServices, httpContextAccessor, successMessageDefault)
         {
             _cityRepository = cityRepository;
-            //_countryRepository = countryRepository;
+            _countryRepository = countryRepository;
         }
 
         public override void P1GenerateObjects()
@@ -54,16 +55,16 @@ namespace Business.APIBusinessServices.CityService
 
         public override void P2PostValidation()
         {
-            //if (_dataRequest.CountryCode == null)
-            //{
-            //    throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
-            //}
-            
-            //Country? country = _countryRepository.GetBy(s => s.Code == newCity.CountryCode).FirstOrDefault();
-            //if (country == null)
-            //{
-            //    throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
-            //}
+            if (_dataRequest.CountryId == null)
+            {
+                throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
+            }
+
+            Country? country = _countryRepository.GetBy(s => s.Id == newCity.CountryId).FirstOrDefault();
+            if (country == null)
+            {
+                throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };
+            }
 
         }
 
