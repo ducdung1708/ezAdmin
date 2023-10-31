@@ -39,7 +39,7 @@ namespace Api.Controllers.CP00_Company
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("cp01-get-list")]
         public IActionResult GetList(CompanyGetListRequest companyGetListRequest )
         {
@@ -53,7 +53,7 @@ namespace Api.Controllers.CP00_Company
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("cp02-get-detail")]
         public IActionResult GetDetail(Guid? companyId)
         {
@@ -68,7 +68,7 @@ namespace Api.Controllers.CP00_Company
         [Authorize]
         [HttpPost]
         [Route("cp03-create-company")]
-        public IActionResult CreateCompany(CompanyCreateRequest companyCreateRequest)
+        public IActionResult CreateCompany([FromBody] CompanyCreateRequest companyCreateRequest)
         {
             BaseResponse<CompanyCreateResponse> result = _companyCreateService.Process(companyCreateRequest);
             return Ok(result);
@@ -81,7 +81,7 @@ namespace Api.Controllers.CP00_Company
         [Authorize]
         [HttpPost]
         [Route("cp04-update-company")]
-        public IActionResult UpdateCompany(CompanyUpdateRequest companyUpdateRequest)
+        public IActionResult UpdateCompany([FromBody] CompanyUpdateRequest companyUpdateRequest)
         {
             BaseResponse<CompanyUpdateResponse> result = _companyUpdateService.Process(companyUpdateRequest);
             return Ok(result);
@@ -94,7 +94,7 @@ namespace Api.Controllers.CP00_Company
         [Authorize]
         [HttpPost]
         [Route("cp05-delete-company")]
-        public IActionResult DeleteCompany(Guid? companyId)
+        public IActionResult DeleteCompany([FromBody] Guid? companyId)
         {
             BaseResponse<CompanyDeleteResponse> result = _companyDeleteService.Process(companyId);
             return Ok(result);

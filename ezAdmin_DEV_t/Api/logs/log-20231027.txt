@@ -1,0 +1,10 @@
+2023-10-27 13:56:12.708 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 15:40:37.087 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 15:50:07.162 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 15:54:23.986 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 16:21:39.452 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 16:22:13.399 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-27 16:22:13.400 +07:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-10-27 16:52:25.259 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 16:54:55.882 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-10-27 16:57:48.031 +07:00 [WRN] Failed to determine the https port for redirect.

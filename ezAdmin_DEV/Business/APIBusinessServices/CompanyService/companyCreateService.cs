@@ -7,7 +7,7 @@ using Models.Models.Response;
 using Models.Models.Result;
 using Repository.Implementation;
 using Repository.Interfaces;
-
+using Infrastructure.CheckValidInput;
 namespace Business.APIBusinessServices.CompanyService
 {
 	public class CompanyCreateService : BaseBusinessServices<CompanyCreateRequest, CompanyCreateResponse>
@@ -56,6 +56,22 @@ namespace Business.APIBusinessServices.CompanyService
 
         public override void P2PostValidation()
         {
+            // Check valid input.
+            //if (!CommonCheckValid.IsValidEmail(_dataRequest.Email))
+            //{
+            //    throw new BaseExceptionResult { Messages = CommonKeywords.EMAIL_INVALID };
+            //}
+            //if (!CommonCheckValid.IsValidName(_dataRequest.Name))
+            //{
+            //    throw new BaseExceptionResult { Messages = CommonKeywords.NAME_INVALID };
+            //}
+            //if (!CommonCheckValid.IsValidPhone(_dataRequest.Phone))
+            //{
+            //    throw new BaseExceptionResult { Messages = CommonKeywords.PHONE_INVALID};
+            //}
+
+
+            // Check country exists.
             if (_dataRequest.CountryCode == null)
             {
                 throw new BaseExceptionResult { Messages = SiteKeywords.COUNTRY_NOT_EXIST };

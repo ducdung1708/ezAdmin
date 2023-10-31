@@ -40,7 +40,7 @@ namespace Api.Controllers.CT00_Country
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("ct01-get-list")]
         public IActionResult GetList(CountryGetListRequest countryGetListRequest )
         {
@@ -54,7 +54,7 @@ namespace Api.Controllers.CT00_Country
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("ct02-get-detail")]
         public IActionResult GetDetail(int countryId)
         {
@@ -69,7 +69,7 @@ namespace Api.Controllers.CT00_Country
         [Authorize]
         [HttpPost]
         [Route("ct03-create-country")]
-        public IActionResult CreateCountry(CountryCreateRequest countryCreateRequest)
+        public IActionResult CreateCountry([FromBody] CountryCreateRequest countryCreateRequest)
         {
             BaseResponse<CountryCreateResponse> result = _countryCreateService.Process(countryCreateRequest);
             return Ok(result);
@@ -82,7 +82,7 @@ namespace Api.Controllers.CT00_Country
         [Authorize]
         [HttpPost]
         [Route("ct04-update-country")]
-        public IActionResult UpdateCountry(CountryUpdateRequest countryUpdateRequest)
+        public IActionResult UpdateCountry([FromBody] CountryUpdateRequest countryUpdateRequest)
         {
             BaseResponse<CountryUpdateResponse> result = _countryUpdateService.Process(countryUpdateRequest);
             return Ok(result);
@@ -95,7 +95,7 @@ namespace Api.Controllers.CT00_Country
         [Authorize]
         [HttpPost]
         [Route("ct04-delete-country")]
-        public IActionResult DeleteCountry(int countryId)
+        public IActionResult DeleteCountry([FromBody] int countryId)
         {
             BaseResponse<CountryDeleteResponse> result = _countryDeleteService.Process(countryId);
             return Ok(result);

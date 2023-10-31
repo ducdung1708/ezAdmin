@@ -42,7 +42,7 @@ namespace Api.Controllers.CI00_Cities
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("ci01-get-list")]
         public IActionResult GetList(CityGetListRequest cityGetListRequest)
         {
@@ -56,7 +56,7 @@ namespace Api.Controllers.CI00_Cities
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("ci02-get-detail")]
         public IActionResult GetDetail(Guid? cityId)
         {
@@ -71,7 +71,7 @@ namespace Api.Controllers.CI00_Cities
         [Authorize]
         [HttpPost]
         [Route("ci03-create-city")]
-        public IActionResult CreateCity(CityCreateRequest cityCreateRequest)
+        public IActionResult CreateCity([FromBody]  CityCreateRequest cityCreateRequest)
         {
             BaseResponse<CityCreateResponse> result = _cityCreateService.Process(cityCreateRequest);
             return Ok(result);
@@ -84,7 +84,7 @@ namespace Api.Controllers.CI00_Cities
         [Authorize]
         [HttpPost]
         [Route("ci04-update-city")]
-        public IActionResult UpdateCity(CityUpdateRequest cityUpdateRequest)
+        public IActionResult UpdateCity([FromBody] CityUpdateRequest cityUpdateRequest)
         {
             BaseResponse<CityUpdateResponse> result = _cityUpdateService.Process(cityUpdateRequest);
             return Ok(result);
@@ -97,7 +97,7 @@ namespace Api.Controllers.CI00_Cities
         [Authorize]
         [HttpPost]
         [Route("ci05-delete-city")]
-        public IActionResult DeleteCity(Guid? cityId)
+        public IActionResult DeleteCity([FromBody] Guid? cityId)
         {
             BaseResponse<CityDeleteResponse> result = _cityDeleteService.Process(cityId);
             return Ok(result);

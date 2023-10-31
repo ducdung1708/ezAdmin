@@ -1,0 +1,30 @@
+B1. Tạo Controller
+ - Tạo thư mục (CP00_Company)
+ - Tạo class: Web API Controller (Add > New Class > API.NET Core > CompanyController.cs)
+ - Kế thừa ControllerBase
+
+B2. Tạo Models Request + Response cho API:
+- Tạo class Request (Add > New Class > General > Empty Class > CompanyGetListRequest) ([<Object name>] + [<Action>] + "Request")
+- Tạo class Response (Add > New Class > General > Empty Class > CompanyGetListResponse) ([<Object name>] + [<Action>] + "Response")
+
+B3. Tạo Business
+ - Tạo thư mục (Compnay + Service) ([<object name>] + "Service")
+ - Tạo service (Add > New Class > General > CompanyGetListServices.cs) ([<Object name>] + [<Action>] + "Services")
+ - Kế thừa lớp BaseBusinessServices<T1, T2> (với T1 là Request, T2 là Response)
+ - Chọn Show potential fixes để chèn code nhanh
+ 
+ B4. Tạo Repository liên quan đến đối tượng trong CSDL 
+ Ví dụ: CompnanyRepository
+ - Tạo Interface: ICompanyRepository ("I" + [<object name>] + "Repository")
+ - Add > New > General > Empty Interface : ICompnayRepository (bắt buộc kế thừa IRepositoryBase)
+ - Viết Implement: CompanyRepository ([<object name>] + "Repository")
+ - Add > New > General > Empty Class : CompnayRepository (bắt buộc kế thừa RepositoryBase và ICompanyRepository)
+
+ B5. Đăng ký Business và Repository 
+ - Thêm Business và Repository vào file IocConfig.cs
+ - services.AddTransient<GetListCompanyServices>();
+ - services.AddScoped<ICompanyRepository, CompanyRepository>();s
+
+ B6. 
+
+

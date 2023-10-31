@@ -1,0 +1,10 @@
+2023-10-05 16:31:40.057 +07:00 [FTL] Application startup exception
+System.IO.DirectoryNotFoundException: /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/ClientApp/dist/
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider..ctor(String root, ExclusionFilters filters)
+   at Api.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in /Volumes/Ken/ezCloud/Projects/ezAdmin/code/BE/Api/Startup.cs:line 138
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2023-10-05 16:32:24.539 +07:00 [WRN] Failed to determine the https port for redirect.

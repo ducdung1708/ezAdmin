@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ezInvoice.Api</name>
+    </assembly>
+    <members>
+        <member name="T:ezInvoice.Api.Controllers.AU00_Account.AccountController">
+            <summary>
+            "AU00"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.AU00_Account.AccountController.#ctor(ezInvoice.Business.APIBusinessServices.Account.AuthorizedAccountServices,ezInvoice.Business.APIBusinessServices.Account.SignOutAccountServices,ezInvoice.Business.APIBusinessServices.Account.SwitchSiteServices,ezInvoice.Business.APIBusinessServices.Account.GetSessionUserSiteInfoServices)">
+            <summary>
+            
+            </summary>
+            <param name="authorizedAccountServices"></param>
+            <param name="signOutAccountServices"></param>
+            <param name="switchSiteServices"></param>
+            <param name="getSessionUserSiteInfoServices"></param>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.AU00_Account.AccountController.ezIDAuthorized(ezInvoice.Models.Models.Request.AccountVerifyRequest)">
+            <summary>
+            Xác thực User login ezID
+            </summary>
+            <param name="accountRequestModels"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.AU00_Account.AccountController.Signout">
+            <summary>
+            Đăng xuất
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.AU00_Account.AccountController.SwitchSite(ezInvoice.Models.Models.Request.SiteSwitchRequest)">
+            <summary>
+            Chuyển Site
+            </summary>
+            <param name="siteSwitchRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.AU00_Account.AccountController.GetSessionUserSiteInfo">
+            <summary>
+            Lấy thông tin Session User đang truy cập
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController">
+            <summary>
+            "CF01"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.GetBySite(System.Nullable{System.Guid})">
+            <summary>
+            Danh sách tài khoản theo Site
+            </summary>
+            <param name="siteId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.InviteAccount(ezInvoice.Models.Models.Request.AccountInviteRequest)">
+            <summary>
+            Mời tài khoản tham gia vào Site
+            </summary>
+            <param name="accountInviteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.ChangeGroupUserRole(ezInvoice.Models.Models.Request.AccountChangeRoleGroupRequest)">
+            <summary>
+            Chuyển nhóm Quyền
+            </summary>
+            <param name="accountChangeRoleGroupRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.UpdateStatusAccount(ezInvoice.Models.Models.Request.AccountUpdateStatusRequest)">
+            <summary>
+            Cập nhật trạng thái tài khoản
+            </summary>
+            <param name="updateAccountStatusServices"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.DeleteAccount(ezInvoice.Models.Models.Request.AccountDeleteRequest)">
+            <summary>
+            Xóa tài khoản
+            </summary>
+            <param name="accountDeleteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.AccountConfigController.UpdateAccount(ezInvoice.Models.Models.Request.AccountUpdateRequest)">
+            <summary>
+            Cập nhật tài khoản
+            </summary>
+            <param name="accountUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.CF00_Configs.RolesConfigController">
+            <summary>
+            "CF02"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.RolesConfigController.#ctor(ezInvoice.Business.APIBusinessServices.Menu.GetRoleServices,ezInvoice.Business.APIBusinessServices.Role.UpdateRoleServices)">
+            <summary>
+            
+            </summary>
+            <param name="getMenuServices"></param>
+            <param name="updateRoleServices"></param>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.RolesConfigController.GetBySite(System.Nullable{System.Guid})">
+            <summary>
+            Lấy Danh Sách Role theo Nhóm người dùng
+            </summary>
+            <param name="groupUserID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.CF00_Configs.RolesConfigController.UpdateGroupUserRole(ezInvoice.Models.Models.Request.GroupUserRoleUpdateRequest)">
+            <summary>
+            Cập nhật danh sach role của nhóm người dùng
+            </summary>
+            <param name="groupUserRoleUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController">
+            <summary>
+            Thao tác với Hóa đơn điện tử
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.Create(ezInvoice.Models.Models.Request.InvoiceCreateRequest)">
+            <summary>
+            Tạo hóa đơn 
+            </summary>
+            <param name="invoiceCreateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.Update(ezInvoice.Models.Models.Request.InvoiceUpdateRequest)">
+            <summary>
+            Cập nhật hóa đơn
+            </summary>
+            <param name="invoiceUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.Delete(ezInvoice.Models.Models.Request.InvoiceVoidRequest)">
+            <summary>
+            Xóa hóa đơn
+            </summary>
+            <param name="invoiceVoidRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.Canccel(ezInvoice.Models.Models.Request.InvoiceVoidRequest)">
+            <summary>
+            Hủy hóa đơn
+            </summary>
+            <param name="voidInvoiceRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.DownloadPDF(ezInvoice.Models.Models.Request.InvoiceDownloadPDFRequest)">
+            <summary>
+            Xem PDF
+            </summary>
+            <param name="pmsDownloadPDFRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.SendCQT(ezInvoice.Models.Models.Response.InvoiceSendCQRequest)">
+            <summary>
+            Gửi hóa đơn lên Cơ quan thuế (CQT)
+            </summary>
+            <param name="invoiceSendCQTBaseRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.GetInvoiceStatusSendCQT(ezInvoice.Models.Models.Response.InvoiceSendCQRequest)">
+            <summary>
+            Kiểm tra trạng thái hóa đơn sau khi gửi lên CQT
+            </summary>
+            <param name="invoiceSendCQTBaseRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.EV00_Invoice.EInvoiceController.GetPaymentMethod(ezInvoice.Models.Models.Request.PaymentMethodRequest)">
+            <summary>
+            Danh sách phương thức thanh toán theo nhà cung cấp
+            </summary>
+            <param name="paymentMethodRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.OpenApiController">
+            <summary>
+            "OPEN_API"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.OpenApiController.UpdateSiteClientStatusConnection(ezInvoice.Models.Models.Request.SiteClientUpdateConnectionStatusRequest)">
+            <summary>
+            Mở/ Hủy kết nối từ ezCloudHotel, ezGolf, ezTicket,...
+            </summary>
+            <param name="clientConnectionUpdateStatusRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.RS00_Resources.AppResourceController">
+            <summary>
+            "RS00"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.RS00_Resources.AppResourceController.GetAppResource">
+            <summary>
+            Danh sách Resource khi login hệ thống
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.RS00_Resources.LanguageController">
+            <summary>
+            "RS00" Ngôn ngữ dịch cho Client
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.RS00_Resources.LanguageController.GetLanguageByCode(System.String)">
+            <summary>
+            Lấy danh sách ngôn ngữ
+            </summary>
+            <param name="languageCode">Mã ngôn ngữ</param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.SC00_SiteClients.SiteClientController">
+            <summary>
+            "SC00"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SC00_SiteClients.SiteClientController.#ctor(ezInvoice.Business.APIBusinessServices.SiteClients.CreateTokenSiteClientServices,ezInvoice.Business.APIBusinessServices.SiteClients.UpdateTokenSiteClientServices,ezInvoice.Business.APIBusinessServices.SiteClients.DeleteTokenSiteClientServices)">
+            <summary>
+            
+            </summary>
+            <param name="createTokenSiteClientServices"></param>
+            <param name="updateTokenSiteClientServices"></param>
+            <param name="deleteTokenSiteClientServices"></param>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SC00_SiteClients.SiteClientController.CreateConnectionClient(ezInvoice.Models.Models.Request.SiteClientCreateTokenRequest)">
+            <summary>
+            Tạo Token kết nối SP ezCloud
+            </summary>
+            <param name="siteCreateConnectionClientRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SC00_SiteClients.SiteClientController.UpdateConnectionClient(ezInvoice.Models.Models.Request.SiteClientUpdateTokenRequest)">
+            <summary>
+            Cập nhật Token kết nối SP ezCloud
+            </summary>
+            <param name="siteUpdateConnectionClientRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SC00_SiteClients.SiteClientController.DeleteConnectionClient(ezInvoice.Models.Models.Request.SiteClientDeteleTokenRequest)">
+            <summary>
+            Xóa Token kết nối SP ezCloud
+            </summary>
+            <param name="siteDeteleConnectionClientRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.GetList(ezInvoice.Models.Models.Request.SerialGetListRequest)">
+            <summary>
+            Danh sách ký hiệu và tìm kiếm
+            </summary>
+            <param name="serialGetListRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.AddSerial(ezInvoice.Models.Models.Request.SerialAddRequest)">
+            <summary>
+            thêm ký hiệu
+            </summary>
+            <param name="serialAddRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.GetByID(System.Nullable{System.Guid})">
+            <summary>
+            Chi tiết ký hiệu
+            </summary>
+            <param name="serialId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.UpdateSerial(ezInvoice.Models.Models.Request.SerialUpdateRequest)">
+            <summary>
+            Cập nhật chi tiết ký hiệu
+            </summary>
+            <param name="serialUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.UpdateSerialStatus(ezInvoice.Models.Models.Request.SerialUpdateStatusRequest)">
+            <summary>
+            Cập nhật trạng thái ký hiệu
+            </summary>
+            <param name="serialUpdateStatusRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SE00_Serial.SerialController.DeleteSerial(ezInvoice.Models.Models.Request.SerialDeleteRequest)">
+            <summary>
+            Xoá Ký Hiệu
+            </summary>
+            <param name="serialDeleteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Controllers.SI00_Site.SiteController">
+            <summary>
+            "SI00"
+            </summary>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.CreateSite(ezInvoice.Models.Models.Request.SiteNewRequest)">
+            <summary>
+            Tạo Site
+            </summary>
+            <param name="siteNewRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.UpdateSite(ezInvoice.Models.Models.Request.SiteUpdateRequest)">
+            <summary>
+            Cập nhật Site
+            </summary>
+            <param name="siteUpdateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.SiteFilter(ezInvoice.Models.Models.Request.SiteFilterRequest)">
+            <summary>
+            Danh sách Site
+            </summary>
+            <param name="siteFilterRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.GetResource">
+            <summary>
+            Resource Site theo User Login
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.GetDetail(System.Nullable{System.Guid})">
+            <summary>
+            Chi tiết Site
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.ConnectPartner(ezInvoice.Models.Models.Request.SiteConnectPartnerRequest)">
+            <summary>
+            Kết nối Site với nhà cung cấp
+            </summary>
+            <param name="siteConnectPartnerRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.DisconnectPartner(ezInvoice.Models.Models.Request.SiteDisconnectPartnerRequest)">
+            <summary>
+            Hủy kết nối Site với nhà cung cấp
+            </summary>
+            <param name="siteDisconnectPartnerRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SI00_Site.SiteController.UpdateSiteStatus(ezInvoice.Models.Models.Request.SiteUpdateStatusRequest)">
+            <summary>
+            Ngừng kích hoạt/ Kích hoạt Site
+            </summary>
+            <param name="siteUpdateStatusRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SR00_SerialRole.SerialRoleController.AddSerialRoleUser(ezInvoice.Models.Models.Request.SerialRoleAddUserRequest)">
+            <summary>
+            Thêm quyền ký hiệu cho user
+            </summary>
+            <param name="serialUserRoleAddRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SR00_SerialRole.SerialRoleController.AddSerialRoleGroupUser(ezInvoice.Models.Models.Request.SerialRoleAddGroupUserRequest)">
+            <summary>
+            thêm quyền ký hiệu cho nhóm người dùng
+            </summary>
+            <param name="serialGroupUserRoleAddRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SR00_SerialRole.SerialRoleController.DeleteSerialRole(ezInvoice.Models.Models.Request.SerialRoleDeleteRequest)">
+            <summary>
+            Xóa quyền ký hiệu
+            </summary>
+            <param name="serialRoleDeleteRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ezInvoice.Api.Controllers.SR00_SerialRole.SerialRoleController.GetResource">
+            <summary>
+            Danh sách tài nguyên ký hiệu
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="T:ezInvoice.Api.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ezInvoice.Api.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ezInvoice.Api.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

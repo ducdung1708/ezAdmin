@@ -36,7 +36,6 @@ namespace Business.APIBusinessServices.CountryServices
             CountryDetailResult? countryDetailResult = _countryRepository.GetMaxIdDetail();
             newCountryId = countryDetailResult is null ? 0 : countryDetailResult.Id;
             newCountryId++;
-
             newCountry = new Country
             {
                 Id = newCountryId,

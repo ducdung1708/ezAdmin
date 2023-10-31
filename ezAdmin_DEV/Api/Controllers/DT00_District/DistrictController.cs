@@ -41,7 +41,7 @@ namespace Api.Controllers.DT00_District
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("dt01-get-list")]
         public IActionResult GetList(DistrictGetListRequest districtGetListRequest)
         {
@@ -55,7 +55,7 @@ namespace Api.Controllers.DT00_District
         /// </summary>
         /// <returns></returns>
         [Authorize]
-        [HttpPost]
+        [HttpGet]
         [Route("dt02-get-detail")]
         public IActionResult GetDetail(Guid? districtId)
         {
@@ -70,7 +70,7 @@ namespace Api.Controllers.DT00_District
         [Authorize]
         [HttpPost]
         [Route("dt03-create-district")]
-        public IActionResult CreateDistrict(DistrictCreateRequest districtCreateRequest)
+        public IActionResult CreateDistrict([FromBody] DistrictCreateRequest districtCreateRequest)
         {
             BaseResponse<DistrictCreateResponse> result = _districtCreateService.Process(districtCreateRequest);
             return Ok(result);
@@ -83,7 +83,7 @@ namespace Api.Controllers.DT00_District
         [Authorize]
         [HttpPost]
         [Route("dt04-update-district")]
-        public IActionResult UpdateDistrict(DistrictUpdateRequest districtUpdateRequest)
+        public IActionResult UpdateDistrict([FromBody] DistrictUpdateRequest districtUpdateRequest)
         {
             BaseResponse<DistrictUpdateResponse> result = _districtUpdateService.Process(districtUpdateRequest);
             return Ok(result);
@@ -96,7 +96,7 @@ namespace Api.Controllers.DT00_District
         [Authorize]
         [HttpPost]
         [Route("dt05-delete-district")]
-        public IActionResult DeleteDistrict(Guid? districtId)
+        public IActionResult DeleteDistrict([FromBody] Guid? districtId)
         {
             BaseResponse<DistrictDeleteResponse> result = _districtDeleteService.Process(districtId);
             return Ok(result);

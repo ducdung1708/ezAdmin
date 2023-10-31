@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{3A487EDD-EAA2-40C5-B2E9-117CDA94789E}|API Development">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Development" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/APIBusinessServices/CompanyService/companyCreateService.cs">
+    <Files>
+      <File FileName="Infrastructure/ConstantsDefine/KeywordTranslate/CommonKeywords.cs" Line="28" Column="2" IsPinned="True" />
+      <File FileName="Business/APIBusinessServices/CompanyService/companyCreateService.cs" Line="87" Column="1" IsPinned="True" />
+      <File FileName="Infrastructure/CheckValidInput/CommonCheckValid.cs" Line="40" Column="74" IsPinned="True" />
+      <File FileName="Business/APIBusinessServices/CityService/CityCreateService.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ezAdmin" expanded="True">
+            <Node name="Business">
+              <Node name="APIBusinessServices" expanded="True">
+                <Node name="CompanyService" expanded="True">
+                  <Node name="companyCreateService.cs" selected="True" />
+                </Node>
+                <Node name="LanguageServices" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infrastructure">
+              <Node name="ConstantsDefine" expanded="True">
+                <Node name="KeywordTranslate" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Repository">
+              <Node name="Implementation" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

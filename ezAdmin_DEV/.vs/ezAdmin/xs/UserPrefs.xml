@@ -1,47 +1,50 @@
 ﻿<Properties StartupConfiguration="{3A487EDD-EAA2-40C5-B2E9-117CDA94789E}|API Development">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Development" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/IoC/IocConfig.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Development" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/APIBusinessServices/CompanyService/companyCreateService.cs">
     <Files>
-      <File FileName="Api/appsettings.Development.json" Line="82" Column="1" />
-      <File FileName="Api/appsettings.json" Line="83" Column="1" />
-      <File FileName="Api/appsettings.Production.json" Line="1" Column="1" />
-      <File FileName="Models/DBContext/ezSQLDBContext.cs" Line="38" Column="1" />
-      <File FileName="Api/IoC/IocConfig.cs" Line="111" Column="6" />
-      <File FileName="Business/APIBusinessServices/CityService/CityGetDetailService.cs" Line="62" Column="43" />
-      <File FileName="Business/APIBusinessServices/CityService/CityGetListService.cs" Line="1" Column="1" />
-      <File FileName="Api/Controllers/CI00_Cities/CityController.cs" Line="45" Column="21" />
-      <File FileName="Business/APIBusinessServices/CityService/CityCreateService.cs" Line="13" Column="15" />
-      <File FileName="Models/EntityModels/City.cs" Line="10" Column="2" />
-      <File FileName="Models/EntityModels/Company.cs" Line="1" Column="1" />
-      <File FileName="Business/APIBusinessServices/CityService/CityUpdateService.cs" Line="68" Column="16" />
-      <File FileName="Business/APIBusinessServices/BaseBusinessServices.cs" Line="1" Column="1" />
-      <File FileName="Models/Models/Result/CompanyDetailResult.cs" Line="1" Column="1" />
-      <File FileName="Models/Models/Result/ClientConnectResourceResult.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/ConstantsDefine/KeywordTranslate/CommonKeywords.cs" Line="28" Column="2" IsPinned="True" />
+      <File FileName="Business/APIBusinessServices/CompanyService/companyCreateService.cs" Line="87" Column="1" IsPinned="True" />
+      <File FileName="Infrastructure/CheckValidInput/CommonCheckValid.cs" Line="40" Column="74" IsPinned="True" />
+      <File FileName="Business/APIBusinessServices/CityService/CityCreateService.cs" Line="62" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ezAdmin" expanded="True">
-            <Node name="Api" expanded="True">
+            <Node name="Api">
               <Node name="Controllers" expanded="True">
-                <Node name="CI00_Cities" expanded="True" />
+                <Node name="AU00_Account" expanded="True" />
+                <Node name="CF00_Configs" expanded="True" />
+                <Node name="CI00_City" expanded="True" />
+                <Node name="CP00_Company" expanded="True" />
               </Node>
               <Node name="IoC" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
-            <Node name="Business" expanded="True">
-              <Node name="APIBusinessServices" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
-            <Node name="Models" expanded="True">
-              <Node name="DBContext" expanded="True" />
-              <Node name="EntityModels" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Result" expanded="True" />
+            <Node name="Business">
+              <Node name="APIBusinessServices" expanded="True">
+                <Node name="CityService" expanded="True" />
+                <Node name="CompanyService">
+                  <Node name="companyCreateService.cs" selected="True" />
+                </Node>
+                <Node name="LanguageServices" expanded="True" />
               </Node>
+            </Node>
+            <Node name="Infrastructure">
+              <Node name="CheckValidInput" expanded="True" />
+            </Node>
+            <Node name="Models">
+              <Node name="Models" expanded="True">
+                <Node name="Request" expanded="True" />
+                <Node name="Response" expanded="True" />
+              </Node>
+              <Node name="ModelValidation" expanded="True" />
             </Node>
             <Node name="Repository" expanded="True">
               <Node name="Implementation" expanded="True" />
@@ -52,7 +55,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
